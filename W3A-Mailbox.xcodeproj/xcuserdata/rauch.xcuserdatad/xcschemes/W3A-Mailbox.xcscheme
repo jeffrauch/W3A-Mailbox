@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "307804A41DBD8F7700940C76"
+               BuildableName = "W3A-Mailbox.app"
+               BlueprintName = "W3A-Mailbox"
+               ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "307804B81DBD8F7700940C76"
+               BuildableName = "W3A-MailboxTests.xctest"
+               BlueprintName = "W3A-MailboxTests"
+               ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "307804C31DBD8F7700940C76"
+               BuildableName = "W3A-MailboxUITests.xctest"
+               BlueprintName = "W3A-MailboxUITests"
+               ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "307804A41DBD8F7700940C76"
+            BuildableName = "W3A-Mailbox.app"
+            BlueprintName = "W3A-Mailbox"
+            ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "307804A41DBD8F7700940C76"
+            BuildableName = "W3A-Mailbox.app"
+            BlueprintName = "W3A-Mailbox"
+            ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "307804A41DBD8F7700940C76"
+            BuildableName = "W3A-Mailbox.app"
+            BlueprintName = "W3A-Mailbox"
+            ReferencedContainer = "container:W3A-Mailbox.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
